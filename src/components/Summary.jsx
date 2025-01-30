@@ -84,12 +84,20 @@ useEffect(() => {
         </p>
       </div>
 
+      <div className="menu-item">
+      <button 
+        className="menu-button" 
+        onClick={() => goToChapter(17)}>
+          Preface
+      </button>
+    </div>
+
       {Object.entries(chapters_looking_glass).slice(1).map(([chapterNumber, chapterData], index) => (
       <div key={chapterNumber} className="menu-item">
         <span className="menu-index">{chapterData.chap}</span>
         <button 
           className="menu-button" 
-          onClick={() => goToChapter(Number(chapterNumber) + 4)}>
+          onClick={() => goToChapter(Number(chapterNumber) + 17)}>
             {chapterData.title}
         </button>
         <span className="menu-index">{Number(chapterNumber)}</span>

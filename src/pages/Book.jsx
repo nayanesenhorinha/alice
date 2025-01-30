@@ -22,6 +22,8 @@ import Chapter9 from '../chapters/Chapter9';
 import Chapter10 from '../chapters/Chapter10';
 import Chapter11 from '../chapters/Chapter11';
 import Chapter12 from '../chapters/Chapter12';
+import PrefaceLG from '../components/PrefaceLG';
+import Chapter13 from '../chapters/Chapter13';
 import Afterword from '../components/Afterword';
 import Credits from '../components/Credits';
 import Colophon from '../components/Colophon';
@@ -58,9 +60,16 @@ const Book = () => {
     <Chapter9 onNext={() => setCurrentPageAndSave(14)} goToCover={() => setCurrentPageAndSave(0)} goToSummary={() => setCurrentPageAndSave(3)}/>, 
     <Chapter10 onNext={() => setCurrentPageAndSave(15)} goToCover={() => setCurrentPageAndSave(0)} goToSummary={() => setCurrentPageAndSave(3)}/>,
     <Chapter11 onNext={() => setCurrentPageAndSave(16)} goToCover={() => setCurrentPageAndSave(0)} goToSummary={() => setCurrentPageAndSave(3)}/>,
+    
     <Chapter12 onNext={() => setCurrentPageAndSave(17)} goToCover={() => setCurrentPageAndSave(0)} goToSummary={() => setCurrentPageAndSave(3)}/>, 
-    <Afterword onNext={() => setCurrentPageAndSave(18)} goToCover={() => setCurrentPageAndSave(0)} goToSummary={() => setCurrentPageAndSave(3)}/>, 
-    <Credits onNext={() => setCurrentPageAndSave(19)} goToCover={() => setCurrentPageAndSave(0)} goToSummary={() => setCurrentPageAndSave(3)}/>,
+    
+    <PrefaceLG onNext={() => setCurrentPageAndSave(18)} goToCover={() => setCurrentPageAndSave(0)} goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+    <Chapter13 onNext={() => setCurrentPageAndSave(19)} goToCover={() => setCurrentPageAndSave(0)} goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+    <Afterword onNext={() => setCurrentPageAndSave(20)} goToCover={() => setCurrentPageAndSave(0)} goToSummary={() => setCurrentPageAndSave(3)}/>, 
+    
+    <Credits onNext={() => setCurrentPageAndSave(21)} goToCover={() => setCurrentPageAndSave(0)} goToSummary={() => setCurrentPageAndSave(3)}/>,
     <Colophon goToCover={() => setCurrentPageAndSave(0)} goToSummary={() => setCurrentPageAndSave(3)}/>
   ];
 

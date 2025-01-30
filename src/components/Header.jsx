@@ -1,16 +1,30 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import book_infos from '../control/book_infos';
+import chapters_looking_glass from '../control/chapters_looking_glass';
 import chapters_in_wonderland from '../control/chapters_in_wonderland';
 
-const Header = ({ chapterIndex }) => {
+const Header = ({ chapterIndex, bookId }) => {
   // Estados
   const [isDarkMode, setIsDarkMode] = useState(() => localStorage.getItem('darkMode') === 'true');
   const [selectedFontSize, setSelectedFontSize] = useState(localStorage.getItem('font-size') || 'normal');
   const [isFontSizeBoxVisible, setFontSizeBoxVisible] = useState(false);
   const [selectedAlignment, setSelectedAlignment] = useState(localStorage.getItem('alignment') || 'centralizado');
   const [showTitle, setShowTitle] = useState(false); // Estado para alternar entre autor e título
-  const adicionarTitulo = () => chapters_in_wonderland[chapterIndex]?.title || '';
   
+  
+   // Identificar qual conjunto de capítulos usar
+   const getChapters = useCallback(() => {
+    if (bookId === 1) {
+      return chapters_in_wonderland;
+    } else if (bookId === 2) {
+      return chapters_looking_glass;
+    } 
+    return []; 
+  }, [bookId]);
+
+  const chapters = getChapters();
+
+  const adicionarTitulo = () => chapters[chapterIndex]?.title || '';
+
   // Função para detectar rolagem e ajustar a visibilidade do cabeçalho e o estado do título
   const handleScroll = useCallback(() => {
     const headerElement = document.querySelector('.header');

@@ -1,14 +1,25 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useCallback } from 'react';
 import DOMPurify from 'dompurify';
 import book_infos from '../control/book_infos';
-import chapters from '../control/chapters_in_wonderland';
+import chapters_in_wonderland from '../control/chapters_in_wonderland';
+import chapters_looking_glass from '../control/chapters_looking_glass';
 import Header from '../components/Header';
 import Navigation from './Navigation';
 import Footer from './Footer'; 
 
-const Chapter = ({  chapterNumber, onNext, goToSummary, goToCover }) => {
+const Chapter = ({   bookId, chapterNumber, onNext, goToSummary, goToCover }) => {
+
+  // Identificar qual conjunto de capítulos usar
+  const getChapters = useCallback(() => {
+    return bookId === 1 ? chapters_in_wonderland : chapters_looking_glass;
+  }, [bookId]);
+
+
+  const chapters = getChapters();
+
   const { title: chapterTitle, chap: chapterRoman, img: image, texts: chapterTexts } = chapters[chapterNumber];
 
+  
   useEffect(() => {
     const bookTitleT = book_infos.title;
     document.title = `${chapterTitle} | ${bookTitleT}`;
@@ -27,7 +38,7 @@ const Chapter = ({  chapterNumber, onNext, goToSummary, goToCover }) => {
         
       />
       <Footer />
-      <Header chapterIndex={chapterNumber}/>
+      <Header chapterIndex={chapterNumber} bookId={bookId}/>
       
       <div className="chapter_head">
         <span className="chapter_subtitle">Chapter {chapterRoman}</span>
