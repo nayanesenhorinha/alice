@@ -258,6 +258,12 @@ body {
         font-size: 0.9rem;
         line-height: 1.4rem;
     }
+    .menu-index {
+        font-size: 0.8rem;
+    }
+    .menu-button, .menu-titulo{
+        font-size: 0.9em;
+    }
 }
 
 .font-large {
@@ -268,7 +274,12 @@ body {
     .chapter_subtitle {
         font-size: 1rem;
     }
-
+    .menu-index {
+        display: none;
+    }
+    .menu-button, .menu-titulo{
+        font-size: 1.3em;
+    }
 }
 .font-super-grande {
     .chapter_text, .chapter_title {
@@ -278,7 +289,13 @@ body {
     .chapter_subtitle {
         font-size: 2rem;
     }
-
+    .menu-index {
+        display: none;
+    }
+    .menu-button, .menu-titulo{
+        font-size: 3em;
+        line-height: 4.5rem;
+    }
 }  
 
 

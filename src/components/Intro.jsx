@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
+import Header from '../components/Header';
 
 const Intro = ({ 
   onNext, 
@@ -16,6 +17,7 @@ const Intro = ({
         onNext={onNext} 
         goToSummary={goToSummary} 
         />
+      <Header title={"Alice"}/>
     </div>
   );
 };

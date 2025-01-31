@@ -3,6 +3,7 @@ import Navigation from './Navigation';
 import book_infos from '../control/book_infos';
 import chapters_in_wonderland from '../control/chapters_in_wonderland';
 import chapters_looking_glass from '../control/chapters_looking_glass';
+import Header from '../components/Header';
 
 const { title: titulo, publisher: editora, author: autor } = book_infos;
 
@@ -16,6 +17,12 @@ const Infos = ({
 
 return (
   <div className="page info">
+    <Navigation 
+      goToCover={goToCover} 
+      onNext={onNext} 
+      goToSummary={goToSummary} />
+
+    <Header title={"Alice"}/>
 
     <div className='info_head'>
       <img 
@@ -38,10 +45,7 @@ return (
       src="https://placehold.co/50" 
       alt={editora} loading="lazy"/>
     
-    <Navigation 
-      goToCover={goToCover} 
-      onNext={onNext} 
-      goToSummary={goToSummary} />
+    
   </div>
 ); };
 

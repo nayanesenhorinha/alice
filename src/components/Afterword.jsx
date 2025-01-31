@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Navigation from './Navigation';
+import Header from '../components/Header';
 
 const Afterword = ({ 
  
@@ -16,6 +17,7 @@ const Afterword = ({
         onNext={onNext} 
         goToSummary={goToSummary} 
         />
+      <Header />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Navigation from './Navigation';
+import Header from '../components/Header';
 
 const LookingGlass = ({ 
   onNext, 
@@ -14,6 +15,7 @@ const LookingGlass = ({
         onNext={onNext} 
         goToSummary={goToSummary} 
        />
+       <Header title={"Through the Looking-Glass"}/>
     </div>
   );
 };

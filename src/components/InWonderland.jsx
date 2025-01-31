@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Navigation from './Navigation';
+import Header from '../components/Header';
 
 const InWonderland = ({ 
   onNext, 
@@ -14,6 +15,7 @@ const InWonderland = ({
         onNext={onNext} 
         goToSummary={goToSummary} 
        />
+      <Header title={"Alice’s Adventures in Wonderland"}/>
     </div>
   );
 };

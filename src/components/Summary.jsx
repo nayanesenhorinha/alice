@@ -3,6 +3,7 @@ import book_infos from '../control/book_infos';
 import chapters_in_wonderland from '../control/chapters_in_wonderland';
 import chapters_looking_glass from '../control/chapters_looking_glass';
 import Navigation from './Navigation';
+import Header from '../components/Header';
 
 const Summary = ({ 
   goToChapter, 
@@ -126,6 +127,7 @@ useEffect(() => {
         onNext={onNext} 
         goToSummary={goToSummary} 
       />
+      <Header title={"Summary"}/>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import chapters_looking_glass from '../control/chapters_looking_glass';
 import chapters_in_wonderland from '../control/chapters_in_wonderland';
 
-const Header = ({ chapterIndex, bookId }) => {
+const Header = ({ chapterIndex, bookId, title }) => {
   // Estados
   const [isDarkMode, setIsDarkMode] = useState(() => localStorage.getItem('darkMode') === 'true');
   const [selectedFontSize, setSelectedFontSize] = useState(localStorage.getItem('font-size') || 'normal');
@@ -12,7 +12,7 @@ const Header = ({ chapterIndex, bookId }) => {
   
   
    // Identificar qual conjunto de capítulos usar
-   const getChapters = useCallback(() => {
+  const getChapters = useCallback(() => {
     if (bookId === 1) {
       return chapters_in_wonderland;
     } else if (bookId === 2) {
@@ -23,7 +23,7 @@ const Header = ({ chapterIndex, bookId }) => {
 
   const chapters = getChapters();
 
-  const adicionarTitulo = () => chapters[chapterIndex]?.title || '';
+  const adicionarTitulo = () => chapters[chapterIndex]?.title || title;
 
   // Função para detectar rolagem e ajustar a visibilidade do cabeçalho e o estado do título
   const handleScroll = useCallback(() => {
@@ -162,7 +162,7 @@ const Header = ({ chapterIndex, bookId }) => {
       </button>
 
       {/* Alterna entre autor e título com base no estado */}
-      <p className="header_titulo">{showTitle ? adicionarTitulo() : "Lewis Carroll"}</p>
+      <p className="header_titulo">{showTitle ? adicionarTitulo() : title}</p>
 
       <button onClick={toggleFontSizeBox}>
         <img

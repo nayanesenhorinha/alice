@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import book_infos from '../control/book_infos';
 import Navigation from './Navigation';
+import Header from '../components/Header';
 
 const Credits = ({onNext, goToCover, goToSummary}) => {
 
@@ -22,6 +23,7 @@ const Credits = ({onNext, goToCover, goToSummary}) => {
         onNext={onNext} 
         goToSummary={goToSummary} 
         />
+      <Header />
     </div>
   );
 };

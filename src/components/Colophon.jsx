@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import chapters from '../control/chapters_in_wonderland';
 import Navigation from './Navigation';
+import Header from '../components/Header';
 
 const Colophon = ({ 
   
@@ -18,6 +18,7 @@ const Colophon = ({
         onNext={onNext} 
         goToSummary={goToSummary} 
         />
+      <Header />
     </div>
   );
 };
