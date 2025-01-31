@@ -12,7 +12,12 @@ const Colophon = ({
   
   return (
     <div className="page">
-      Ends
+      <div className='colophon'>
+        <p>Todos os direitos reservados.</p>
+        <p>Este e-book é um projeto acadêmico e não possui fins lucrativos. </p>
+      </div>
+      
+
       <Navigation 
         goToCover={goToCover} 
         onNext={onNext} 

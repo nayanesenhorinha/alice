@@ -10,7 +10,6 @@ const Header = ({ chapterIndex, bookId, title }) => {
   const [selectedAlignment, setSelectedAlignment] = useState(localStorage.getItem('alignment') || 'centralizado');
   const [showTitle, setShowTitle] = useState(false); // Estado para alternar entre autor e título
   
-  
    // Identificar qual conjunto de capítulos usar
   const getChapters = useCallback(() => {
     if (bookId === 1) {

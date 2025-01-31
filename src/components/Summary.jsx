@@ -108,7 +108,7 @@ useEffect(() => {
     <div className="menu-item">
       <button 
         className="menu-button" 
-        onClick={() => goToChapter(17)}>
+        onClick={() => goToChapter(19)}>
           Afterword
       </button>
     </div>
@@ -116,7 +116,7 @@ useEffect(() => {
     <div className="menu-item">
       <button 
         className="menu-button" 
-        onClick={() => goToChapter(18)}>
+        onClick={() => goToChapter(20)}>
           Credits
       </button>
     </div>

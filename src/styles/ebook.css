@@ -6,11 +6,7 @@
     --cinza-escuro: #1e1e1e;
     --cinza-medio: #6f6f6f;
     --cinza-claro: #cacaca;
-    --lilas-escuro: #25092f;
-    --lilas-claro: #f2bfdd;
-    --cor-1: rgb(0, 52, 0);
     --font-text: "Buenard", serif;
-    --font-titulos: "Buenard", serif;
     --font-size: 1.1rem;
 }
 
@@ -462,6 +458,51 @@ body {
 
 .navigation {
     margin-top: 1.5625rem;
+}
+
+/* CRÉDITOS */
+.credits {
+    display: flex;
+    flex-direction: column;
+}
+
+.credits {
+    .icone_cabeco {
+        margin-bottom: 2rem;
+    }
+}
+
+.credits_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1rem;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+
+.credits_titulo {
+    font-size: 1rem;
+}
+
+.credits_texto {
+    padding: 0.3rem 0;
+}
+
+.colophon {
+    position: fixed;
+    bottom: 5rem;
+    padding: 0 2rem;
+}
+
+.colophon p {
+    color: var(--preto);
+    text-align: center;
+    font-family: var(--font-text);
+    width: 100%;
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
 }
 
 /* MODO NOTURNO */ 
