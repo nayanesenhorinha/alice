@@ -27,7 +27,7 @@ const Credits = ({onNext, goToCover, goToSummary}) => {
         Este e-book foi desenvolvido como projeto de conclusão do curso de Comunicação Social com habilitação em Produção Editorial da Universidade Federal do Rio de Janeiro (UFRJ), que será defendido por Nayane de Souza em junho de 2025. O objetivo é a criação de um projeto digital de livro, experimentando um novo formato de e-book, que proporciona uma experiência de leitura acessível e funcional.
       </p>
       <div className='credits_container'>
-        <p className='credits_titulo'>Projeto digital e desenvolvimento</p>
+        <p className='credits_titulo'>Projeto digital, ilustrações e desenvolvimento</p>
         <p className='credits_texto'>Nayane de Souza</p>
       </div>
       <div className='credits_container'>

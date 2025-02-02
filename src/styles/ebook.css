@@ -470,6 +470,9 @@ body {
     .icone_cabeco {
         margin-bottom: 2rem;
     }
+    .chapter_text {
+        margin-bottom: 1.5rem;
+    }
 }
 
 .credits_container {
@@ -478,15 +481,18 @@ body {
     width: 100%;
     padding: 0 1rem;
     align-items: center;
-    margin-top: 0.8rem;
+    margin-top: 0.5rem;
 }
 
 .credits_titulo {
     font-size: 1rem;
+    text-align: center;
+
 }
 
 .credits_texto {
-    padding: 0.3rem 0;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .colophon {
