@@ -11,14 +11,21 @@ const Navigation = ({ onNext, goToSummary, goToCover }) => {
     <div className="navigation">
       
       
-        {goToSummary && (<button onClick={goToSummary}>S</button>)}
+        {goToSummary && (<button onClick={goToSummary}>
+          <img
+            src="https://placehold.co/14"
+            alt="Cover"
+            className="nav-icon"
+            loading="lazy"
+          />
+        </button>)}
 
      
 
       {goToCover && (
         <button onClick={goToCover}>
           <img
-            src="https://raw.githubusercontent.com/nayanesenhorinha/abelhinha/refs/heads/main/src/assets/casa.png"
+            src="https://placehold.co/14"
             alt="Cover"
             className="nav-icon"
             loading="lazy"
@@ -29,7 +36,7 @@ const Navigation = ({ onNext, goToSummary, goToCover }) => {
       {onNext && (
         <button onClick={onNext}>
           <img
-            src="https://raw.githubusercontent.com/nayanesenhorinha/abelhinha/refs/heads/main/src/assets/depois.png"
+            src="https://placehold.co/14"
             alt="Next"
             className="nav-icon"
             loading="lazy"

@@ -66,7 +66,7 @@ useEffect(() => {
 
     {Object.entries(chapters_in_wonderland).slice(1).map(([chapterNumber, chapterData], index) => (
       <div key={chapterNumber} className="menu-item">
-        <span className="menu-index">{chapterData.chap}</span>
+        <span className="menu-index iop">{chapterData.chap}</span>
         <button 
           className="menu-button" 
           onClick={() => goToChapter(Number(chapterNumber) + 4)}>
@@ -95,7 +95,7 @@ useEffect(() => {
 
       {Object.entries(chapters_looking_glass).slice(1).map(([chapterNumber, chapterData], index) => (
       <div key={chapterNumber} className="menu-item">
-        <span className="menu-index">{chapterData.chap}</span>
+        <span className="menu-index iop">{chapterData.chap}</span>
         <button 
           className="menu-button" 
           onClick={() => goToChapter(Number(chapterNumber) + 17)}>

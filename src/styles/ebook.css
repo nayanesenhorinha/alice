@@ -161,9 +161,7 @@ body {
     transition: transform 0.3s ease; 
     }
 
-.navigation button img {
-    width: 0.875rem;
-}
+
 
 /* CAPÍTULOS */
 .chapter_head {
@@ -398,7 +396,7 @@ body {
 .progress-bar {
     flex: 1;
     height: 0.2rem;
-    background-color: var(--cinza-claro);
+    background-color: var(--branco);
     overflow: hidden;
 }
 
@@ -446,6 +444,10 @@ body {
     font-family: var(--font-text);
     font-size: 0.8rem;
     font-weight: bold;
+}
+
+.iop {
+    font-size: 0.7rem;
 }
 
 .menu-button {

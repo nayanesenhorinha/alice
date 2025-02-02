@@ -38,7 +38,7 @@ const Chapter = ({   bookId, chapterNumber, onNext, goToSummary, goToCover }) =>
         
       />
       <Footer />
-      <Header chapterIndex={chapterNumber} bookId={bookId} title="Lewis Carroll"/>
+      <Header chapterIndex={chapterNumber} bookId={bookId} title={chapters[0].title}/>
       
       <div className="chapter_head">
         <span className="chapter_subtitle">Chapter {chapterRoman}</span>
