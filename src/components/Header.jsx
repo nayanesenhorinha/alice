@@ -43,10 +43,10 @@ const Header = ({ chapterIndex, bookId, title }) => {
       }
     }
 
-    // Atualiza estado para mostrar o título ao atingir 50% da página
+    // Atualiza estado para mostrar o título ao atingir 6% da página
     const scrollPercentage =
       (currentScrollTop / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-    setShowTitle(scrollPercentage >= 4);
+    setShowTitle(scrollPercentage >= 6);
 
     // Salva a posição atual de rolagem no localStorage
     localStorage.setItem('lastScrollTop', currentScrollTop <= 0 ? 0 : currentScrollTop);

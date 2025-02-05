@@ -24,6 +24,17 @@ import Chapter11 from '../chapters/Chapter11';
 import Chapter12 from '../chapters/Chapter12';
 import LookingGlass from '../components/LookingGlass';
 import Chapter13 from '../chapters/Chapter13';
+import Chapter14 from '../chapters/Chapter14';
+import Chapter15 from '../chapters/Chapter15';
+import Chapter16 from '../chapters/Chapter16';
+import Chapter17 from '../chapters/Chapter17';
+import Chapter18 from '../chapters/Chapter18';
+import Chapter19 from '../chapters/Chapter19';
+import Chapter20 from '../chapters/Chapter20';
+import Chapter21 from '../chapters/Chapter21';
+import Chapter22 from '../chapters/Chapter22';
+import Chapter23 from '../chapters/Chapter23';
+import Chapter24 from '../chapters/Chapter24';
 import Afterword from '../components/Afterword';
 import Credits from '../components/Credits';
 import Colophon from '../components/Colophon';
@@ -135,13 +146,68 @@ const Book = () => {
       goToCover={() => setCurrentPageAndSave(0)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
-    <Afterword 
+    <Chapter14
       onNext={() => setCurrentPageAndSave(20)} 
+      goToCover={() => setCurrentPageAndSave(0)} 
+      goToSummary={() => setCurrentPageAndSave(3)}/>,
+      
+      <Chapter15
+      onNext={() => setCurrentPageAndSave(21)} 
+      goToCover={() => setCurrentPageAndSave(0)} 
+      goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+      <Chapter16
+      onNext={() => setCurrentPageAndSave(22)} 
+      goToCover={() => setCurrentPageAndSave(0)} 
+      goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+      <Chapter17
+      onNext={() => setCurrentPageAndSave(23)} 
+      goToCover={() => setCurrentPageAndSave(0)} 
+      goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+      <Chapter18
+      onNext={() => setCurrentPageAndSave(24)} 
+      goToCover={() => setCurrentPageAndSave(0)} 
+      goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+      <Chapter19
+      onNext={() => setCurrentPageAndSave(25)} 
+      goToCover={() => setCurrentPageAndSave(0)} 
+      goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+      <Chapter20
+      onNext={() => setCurrentPageAndSave(26)} 
+      goToCover={() => setCurrentPageAndSave(0)} 
+      goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+      <Chapter21
+      onNext={() => setCurrentPageAndSave(27)} 
+      goToCover={() => setCurrentPageAndSave(0)} 
+      goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+      <Chapter22
+      onNext={() => setCurrentPageAndSave(28)} 
+      goToCover={() => setCurrentPageAndSave(0)} 
+      goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+      <Chapter23
+      onNext={() => setCurrentPageAndSave(29)} 
+      goToCover={() => setCurrentPageAndSave(0)} 
+      goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+      <Chapter24
+      onNext={() => setCurrentPageAndSave(30)} 
+      goToCover={() => setCurrentPageAndSave(0)} 
+      goToSummary={() => setCurrentPageAndSave(3)}/>,
+
+    <Afterword 
+      onNext={() => setCurrentPageAndSave(31)} 
       goToCover={() => setCurrentPageAndSave(0)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>, 
     
     <Credits 
-      onNext={() => setCurrentPageAndSave(21)} 
+      onNext={() => setCurrentPageAndSave(32)} 
       goToCover={() => setCurrentPageAndSave(0)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
       

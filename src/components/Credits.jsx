@@ -31,6 +31,10 @@ const Credits = ({onNext, goToCover, goToSummary}) => {
         <p className='credits_texto'>Nayane de Souza</p>
       </div>
       <div className='credits_container'>
+        <p className='credits_titulo'>Texto</p>
+        <p className='credits_texto'>Project Gutenberg</p>
+      </div>
+      <div className='credits_container'>
         <p className='credits_titulo'>Agradecimentos</p>
         <p className='credits_texto'>Lista de nomes Lista de nomes</p>
       </div>

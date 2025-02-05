@@ -209,6 +209,21 @@ body {
     line-height: 1.6rem;
 }
 
+.chapter_poem {
+    color: var(--preto);
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    word-wrap: break-word;
+    font-family: var(--font-text);
+    width: 100%;
+    padding-left: 2rem;
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+
 /* Estilos de caractere */
 .chapter_text_space {
     width: 100%;
@@ -241,6 +256,7 @@ body {
 }
 
 .align-center {
+    text-align: center;
     .chapter_text {
         text-align: justify;
     }
@@ -248,7 +264,7 @@ body {
 
 /* Opções tamanho de fontes */
 .font-compact {
-    .chapter_text, .chapter_title {
+    .chapter_text, .chapter_title, .chapter_poem {
         font-size: 0.9rem;
         line-height: 1.4rem;
     }
@@ -261,7 +277,7 @@ body {
 }
 
 .font-large {
-    .chapter_text, .chapter_title  {
+    .chapter_text, .chapter_title, .chapter_poem  {
         font-size: 1.4rem;
         line-height: 2.2rem;
     }
@@ -276,7 +292,7 @@ body {
     }
 }
 .font-super-grande {
-    .chapter_text, .chapter_title {
+    .chapter_text, .chapter_title, .chapter_poem {
         font-size: 3rem;
         line-height: 4rem;
     }
