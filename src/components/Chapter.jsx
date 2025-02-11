@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback } from 'react';
+import React, { useEffect, useCallback, useRef } from 'react';
 import DOMPurify from 'dompurify';
 import book_infos from '../control/book_infos';
 import chapters_in_wonderland from '../control/chapters_in_wonderland';
@@ -7,7 +7,7 @@ import Header from '../components/Header';
 import Navigation from './Navigation';
 import Footer from './Footer'; 
 
-const Chapter = ({   bookId, chapterNumber, onNext, goToSummary, goToCover }) => {
+const Chapter = ({   bookId, chapterNumber, onNext, goToSummary, goToCover, onPrev }) => {
 
   // Identificar qual conjunto de capítulos usar
   const getChapters = useCallback(() => {
@@ -29,10 +29,32 @@ const Chapter = ({   bookId, chapterNumber, onNext, goToSummary, goToCover }) =>
     };
   }, [chapterTitle]);
 
+  const chapterRef = useRef(null);
+
+  useEffect(() => {
+    const handleCopy = (e) => {
+      const selection = window.getSelection();
+      if (!selection.rangeCount) return;
+
+      const selectedText = selection.toString().trim();
+      if (selectedText && chapterRef.current.contains(selection.anchorNode)) {
+        const additionalText = "\nCARROLL, Lewis. Editora Sona";
+        e.clipboardData.setData("text/plain", `"${selectedText}"${additionalText}`);
+        e.preventDefault();
+      }
+    };
+
+    document.addEventListener("copy", handleCopy);
+    
+    return () => {
+      document.removeEventListener("copy", handleCopy);
+    };
+  }, []);
+
   return (
     <div className="page chapter_page">
       <Navigation 
-        goToCover={goToCover} 
+        onPrev={onPrev} 
         onNext={onNext} 
         goToSummary={goToSummary} 
         
@@ -46,7 +68,7 @@ const Chapter = ({   bookId, chapterNumber, onNext, goToSummary, goToCover }) =>
         <img className="chapter_img_abertura" src={image} alt="" loading="lazy" />
       </div>
 
-      <div className="chapter_content">
+      <div className="chapter_content" ref={chapterRef}>
         {chapterTexts.map((paragraph, index) => (
           <p
             className={paragraph.className}

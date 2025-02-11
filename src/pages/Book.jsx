@@ -1,7 +1,6 @@
 import React, { useState,  useEffect } from 'react';
 import { useSwipeable } from 'react-swipeable'; 
 
-import '../control/copy';
 import '../styles/ebook.css';
 
 // Componentes de cada parte do livro (capa, sumário, capítulos, etc.)
@@ -61,158 +60,158 @@ const Book = () => {
 
     <Infos 
       onNext={() => setCurrentPageAndSave(2)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(0)} 
       goToSummary={() => setCurrentPageAndSave(3)} />,
 
     <Intro 
       onNext={() => setCurrentPageAndSave(3)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(1)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
     <Summary 
       onNext={() => setCurrentPageAndSave(4)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(2)} 
       goToChapter={(pageIndex) => setCurrentPageAndSave(pageIndex)}/>,
 
     <InWonderland
       onNext={() => setCurrentPageAndSave(5)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(3)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
     <Chapter1 
       onNext={() => setCurrentPageAndSave(6)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(4)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
     <Chapter2 
       onNext={() => setCurrentPageAndSave(7)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(5)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
     <Chapter3 
-      nNext={() => setCurrentPageAndSave(8)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onNext={() => setCurrentPageAndSave(8)} 
+      onPrev={() => setCurrentPageAndSave(6)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
     <Chapter4 
       onNext={() => setCurrentPageAndSave(9)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(7)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
     <Chapter5 
       onNext={() => setCurrentPageAndSave(10)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(8)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
     <Chapter6 
       onNext={() => setCurrentPageAndSave(11)}  
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(9)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
     <Chapter7 
       onNext={() => setCurrentPageAndSave(12)} 
-      goToCover={() => setCurrentPageAndSave(0)} g
+      onPrev={() => setCurrentPageAndSave(10)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>, 
 
     <Chapter8 
       onNext={() => setCurrentPageAndSave(13)}  
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(11)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
     <Chapter9 
       onNext={() => setCurrentPageAndSave(14)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(12)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>, 
     <Chapter10 
       onNext={() => setCurrentPageAndSave(15)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(13)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
     <Chapter11 
       onNext={() => setCurrentPageAndSave(16)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(14)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
     
     <Chapter12 
       onNext={() => setCurrentPageAndSave(17)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(15)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>, 
     
     <LookingGlass 
       onNext={() => setCurrentPageAndSave(18)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(16)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
     <Chapter13 
       onNext={() => setCurrentPageAndSave(19)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(17)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
     <Chapter14
       onNext={() => setCurrentPageAndSave(20)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(18)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
       
       <Chapter15
       onNext={() => setCurrentPageAndSave(21)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(19)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
       <Chapter16
       onNext={() => setCurrentPageAndSave(22)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(20)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
       <Chapter17
       onNext={() => setCurrentPageAndSave(23)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(21)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
       <Chapter18
       onNext={() => setCurrentPageAndSave(24)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(22)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
       <Chapter19
       onNext={() => setCurrentPageAndSave(25)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(23)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
       <Chapter20
       onNext={() => setCurrentPageAndSave(26)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(24)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
       <Chapter21
       onNext={() => setCurrentPageAndSave(27)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(25)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
       <Chapter22
       onNext={() => setCurrentPageAndSave(28)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(26)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
       <Chapter23
       onNext={() => setCurrentPageAndSave(29)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(27)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
       <Chapter24
       onNext={() => setCurrentPageAndSave(30)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(28)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
 
     <Afterword 
       onNext={() => setCurrentPageAndSave(31)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(29)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>, 
     
     <Credits 
       onNext={() => setCurrentPageAndSave(32)} 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(30)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>,
       
     <Colophon 
-      goToCover={() => setCurrentPageAndSave(0)} 
+      onPrev={() => setCurrentPageAndSave(31)} 
       goToSummary={() => setCurrentPageAndSave(3)}/>
   ];
 

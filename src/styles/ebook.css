@@ -159,8 +159,13 @@ body {
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease; 
-    }
+    cursor: pointer;
+}
 
+.navigation button img {
+    width: 14px;
+    cursor: pointer;
+}
 
 
 /* CAPÍTULOS */
@@ -258,6 +263,20 @@ body {
 .align-center {
     text-align: center;
     .chapter_text {
+        text-align: center;
+    }
+}
+
+.align-right {
+    text-align: right;
+    .chapter_text {
+        text-align: right;
+    }
+}
+
+.align-justify {
+    text-align: justify;
+    .chapter_text {
         text-align: justify;
     }
 }
@@ -341,6 +360,10 @@ body {
     display: flex;
 }
 
+.header button img {
+    width: 20px;
+}
+
 .header_titulo {
     color: var(--branco);
     font-size: 0.9rem;
@@ -366,7 +389,7 @@ body {
     transition: bottom 0.3s ease, opacity 0.3s ease; 
     z-index: 999; 
     opacity: 0; 
-    padding: 0 3.2rem;
+    padding: 0 3.4rem;
 }
 
 .menu-config.visible {
@@ -383,13 +406,31 @@ body {
     color: var(--cinza-medio);
 }
 
+.menu-config span {
+    background-color: var(--cinza-claro);
+    width: 1px;
+    color: transparent;
+}
+
+.menu-config button {
+    cursor: pointer;
+}
+
 .menu-config .align-options button {
     transition: background-color 0.3s ease, border-color 0.3s ease;
     
 }
 
+.menu-config .align-options button img {
+    color: var(--branco);
+}
+
 .menu-config .font-options button {
     transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.menu-config .darkmode-option button img {
+    width: 17px;
 }
 
 

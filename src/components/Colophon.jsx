@@ -5,7 +5,7 @@ import Header from '../components/Header';
 const Colophon = ({ 
   
   onNext, 
-  goToCover,
+  onPrev,
   goToSummary,
    }) => {
 
@@ -19,7 +19,7 @@ const Colophon = ({
       
 
       <Navigation 
-        goToCover={goToCover} 
+        onPrev={onPrev} 
         onNext={onNext} 
         goToSummary={goToSummary} 
         />

@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
-const Navigation = ({ onNext, goToSummary, goToCover }) => {
-  
-
+const Navigation = ({ onNext, goToSummary, goToCover, onPrev }) => {
   
 
   return (
@@ -13,7 +11,7 @@ const Navigation = ({ onNext, goToSummary, goToCover }) => {
       
         {goToSummary && (<button onClick={goToSummary}>
           <img
-            src="https://placehold.co/14"
+            src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/mh2.png"
             alt="Cover"
             className="nav-icon"
             loading="lazy"
@@ -22,10 +20,10 @@ const Navigation = ({ onNext, goToSummary, goToCover }) => {
 
      
 
-      {goToCover && (
-        <button onClick={goToCover}>
+      {onPrev && (
+        <button onClick={onPrev}>
           <img
-            src="https://placehold.co/14"
+            src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/angulo-pequeno-esquerdo%20(1).png"
             alt="Cover"
             className="nav-icon"
             loading="lazy"
@@ -36,7 +34,7 @@ const Navigation = ({ onNext, goToSummary, goToCover }) => {
       {onNext && (
         <button onClick={onNext}>
           <img
-            src="https://placehold.co/14"
+            src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/angulo-pequeno-direito%20(1).png"
             alt="Next"
             className="nav-icon"
             loading="lazy"

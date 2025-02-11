@@ -4,7 +4,7 @@ import Header from '../components/Header';
 
 const Intro = ({ 
   onNext, 
-  goToCover,
+  onPrev,
   goToSummary
   }) => {
 
@@ -13,7 +13,7 @@ const Intro = ({
     <div className="page">
       Ilustração de introdução
       <Navigation 
-        goToCover={goToCover} 
+        onPrev={onPrev} 
         onNext={onNext} 
         goToSummary={goToSummary} 
         />

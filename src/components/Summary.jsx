@@ -9,6 +9,7 @@ const Summary = ({
   goToChapter, 
   onNext, 
   goToCover,
+  onPrev,
   goToSummary,
 }) => {
 
@@ -37,6 +38,14 @@ useEffect(() => {
         <img 
           src="https://placehold.co/300x150" 
           loading="lazy"/>
+      </div>
+
+      <div className="menu-item">
+        <button 
+          className="menu-button" 
+          onClick={() => goToChapter(0)}>
+            Cover
+        </button>
       </div>
 
       <div className="menu-item">
@@ -123,7 +132,7 @@ useEffect(() => {
 
   </div>
   <Navigation 
-        goToCover={goToCover} 
+        onPrev={onPrev} 
         onNext={onNext} 
         goToSummary={goToSummary} 
       />

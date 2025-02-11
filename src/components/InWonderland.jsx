@@ -4,14 +4,14 @@ import Header from '../components/Header';
 
 const InWonderland = ({ 
   onNext, 
-  goToCover,
+  onPrev,
   goToSummary }) => {
 
   return (
     <div className="page">
       Ilustração de prefácio
       <Navigation 
-        goToCover={goToCover} 
+        onPrev={onPrev} 
         onNext={onNext} 
         goToSummary={goToSummary} 
        />

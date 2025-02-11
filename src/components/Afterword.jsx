@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 import Header from '../components/Header';
 
 const Afterword = ({ 
- 
+  onPrev,
   onNext, 
   goToCover,
   goToSummary }) => {
@@ -13,7 +13,7 @@ const Afterword = ({
     <div className="page">
       Encerramento
       <Navigation 
-        goToCover={goToCover} 
+        onPrev={onPrev} 
         onNext={onNext} 
         goToSummary={goToSummary} 
         />

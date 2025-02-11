@@ -3,7 +3,7 @@ import book_infos from '../control/book_infos';
 import Navigation from './Navigation';
 import Header from '../components/Header';
 
-const Credits = ({onNext, goToCover, goToSummary}) => {
+const Credits = ({onNext, onPrev, goToSummary}) => {
 
   const chapterTitle = "Credits";
   
@@ -40,7 +40,7 @@ const Credits = ({onNext, goToCover, goToSummary}) => {
       </div>
 
       <Navigation 
-        goToCover={goToCover} 
+        onPrev={onPrev} 
         onNext={onNext} 
         goToSummary={goToSummary} 
         />

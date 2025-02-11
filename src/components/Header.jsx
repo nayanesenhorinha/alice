@@ -7,7 +7,7 @@ const Header = ({ chapterIndex, bookId, title }) => {
   const [isDarkMode, setIsDarkMode] = useState(() => localStorage.getItem('darkMode') === 'true');
   const [selectedFontSize, setSelectedFontSize] = useState(localStorage.getItem('font-size') || 'normal');
   const [isFontSizeBoxVisible, setFontSizeBoxVisible] = useState(false);
-  const [selectedAlignment, setSelectedAlignment] = useState(localStorage.getItem('alignment') || 'centralizado');
+  const [selectedAlignment, setSelectedAlignment] = useState(localStorage.getItem('alignment') || 'justificado');
   const [showTitle, setShowTitle] = useState(false); // Estado para alternar entre autor e título
   
    // Identificar qual conjunto de capítulos usar
@@ -103,10 +103,14 @@ const Header = ({ chapterIndex, bookId, title }) => {
 
   // Ajusta o alinhamento do texto no corpo do documento
   const adjustTextAlignment = (newAlignment) => {
-    document.body.classList.remove('align-left', 'align-center');
+    document.body.classList.remove('align-left', 'align-justify','align-right','align-center');
 
     if (newAlignment === 'esquerda') {
       document.body.classList.add('align-left');
+    } else if (newAlignment === 'justificado') {
+      document.body.classList.add('align-justify');
+    } else if (newAlignment === 'direito') {
+      document.body.classList.add('align-right');
     } else if (newAlignment === 'centralizado') {
       document.body.classList.add('align-center');
     }
@@ -134,8 +138,8 @@ const Header = ({ chapterIndex, bookId, title }) => {
 
     if (selectedAlignment === 'esquerda') {
       document.body.classList.add('align-left');
-    } else if (selectedAlignment === 'centralizado') {
-      document.body.classList.add('align-center');
+    } else if (selectedAlignment === 'justificado') {
+      document.body.classList.add('align-justify');
     }
   }, [isDarkMode, selectedFontSize, selectedAlignment]);
 
@@ -165,7 +169,7 @@ const Header = ({ chapterIndex, bookId, title }) => {
 
       <button onClick={toggleFontSizeBox}>
         <img
-          src="https://placehold.co/20"
+          src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-list.png"
           alt="Configurações"
           loading="lazy"
         />
@@ -216,15 +220,17 @@ const Header = ({ chapterIndex, bookId, title }) => {
           </button>
         </div>
 
-        <div>|</div>
+        <div><span>.</span></div>
 
         <div className="align-options">
+
+          
           <button
-            className={`ajust-option ${selectedAlignment === 'centralizado' ? 'active' : ''}`}
-            onClick={() => adjustTextAlignment('centralizado')}
+            className={`ajust-option ${selectedAlignment === 'justificado' ? 'active' : ''}`}
+            onClick={() => adjustTextAlignment('justificado')}
           >
             <img
-              src="https://placehold.co/20"
+              src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-align-justify.png"
               alt="Download"
               loading="lazy"
             />
@@ -234,26 +240,31 @@ const Header = ({ chapterIndex, bookId, title }) => {
             onClick={() => adjustTextAlignment('esquerda')}
           >
             <img
-              src="https://placehold.co/20"
+              src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-align-left.png"
+              alt="Download"
+              loading="lazy"
+            />
+          </button>
+
+          <button
+            className={`ajust-option ${selectedAlignment === 'direito' ? 'active' : ''}`}
+            onClick={() => adjustTextAlignment('direito')}
+          >
+            <img
+              src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-align-right.png"
               alt="Download"
               loading="lazy"
             />
           </button>
         </div>
 
-        <div>|</div>
+        <div><span>.</span></div>
 
-        <div>
-          <button>
-            <img
-              src="https://placehold.co/20"
-              alt="Download"
-              loading="lazy"
-            />
-          </button>
+        <div className='darkmode-option'>
+          
           <button onClick={toggleDarkMode}>
             <img
-              src={isDarkMode ? 'https://placehold.co/20' : 'https://placehold.co/20'}
+              src={isDarkMode ? 'https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-sun.png' : 'https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-moon.png' }
               alt={isDarkMode ? 'Ativar Modo Norturno' : 'Ativar modo Claro'}
               loading="lazy"
             />

@@ -12,14 +12,14 @@ const titulo_looking_glass = chapters_looking_glass[0].title;
 
 const Infos = ({ 
   onNext,  
-  goToCover,
+  onPrev,
   goToSummary}) => {
 
 return (
   <div className="page info">
     <Navigation 
-      goToCover={goToCover} 
       onNext={onNext} 
+      onPrev={onPrev} 
       goToSummary={goToSummary} />
 
     <Header title={"Alice"}/>
