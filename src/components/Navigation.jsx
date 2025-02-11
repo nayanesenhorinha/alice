@@ -11,7 +11,7 @@ const Navigation = ({ onNext, goToSummary, goToCover, onPrev }) => {
       
         {goToSummary && (<button onClick={goToSummary}>
           <img
-            src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/mh2.png"
+            src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-menu-burger.png"
             alt="Cover"
             className="nav-icon"
             loading="lazy"
@@ -23,7 +23,7 @@ const Navigation = ({ onNext, goToSummary, goToCover, onPrev }) => {
       {onPrev && (
         <button onClick={onPrev}>
           <img
-            src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/angulo-pequeno-esquerdo%20(1).png"
+            src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-angle-small-left.png"
             alt="Cover"
             className="nav-icon"
             loading="lazy"
@@ -34,7 +34,7 @@ const Navigation = ({ onNext, goToSummary, goToCover, onPrev }) => {
       {onNext && (
         <button onClick={onNext}>
           <img
-            src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/angulo-pequeno-direito%20(1).png"
+            src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-angle-small-right.png"
             alt="Next"
             className="nav-icon"
             loading="lazy"

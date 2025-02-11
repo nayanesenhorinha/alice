@@ -169,7 +169,7 @@ const Header = ({ chapterIndex, bookId, title }) => {
 
       <button onClick={toggleFontSizeBox}>
         <img
-          src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-list.png"
+          src="https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-menu-burger.png"
           alt="Configurações"
           loading="lazy"
         />
