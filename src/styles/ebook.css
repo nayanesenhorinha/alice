@@ -403,17 +403,18 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
-    color: var(--cinza-medio);
 }
 
 .menu-config span {
-    background-color: var(--cinza-escuro);
-    width: 2px;
+    background-color: var(--cinza-medio);
+    width: 1px;
     color: transparent;
+    color: var(--cinza-medio);
+    height: 30px;
 }
 
 .menu-config button {
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .menu-config .align-options button {
@@ -421,6 +422,9 @@ body {
     
 }
 
+.menu-config .darkmode-option button img {
+    width: 18px;
+}
 
 .menu-config .font-options button {
     transition: background-color 0.3s ease, border-color 0.3s ease;
@@ -428,9 +432,7 @@ body {
 
 
 
-.menu-config .darkmode-option button img {
-    width: 18px;
-}
+
 
 
 

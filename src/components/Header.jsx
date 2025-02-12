@@ -177,13 +177,27 @@ const Header = ({ chapterIndex, bookId, title }) => {
 
       <div className={`menu-config ${isFontSizeBoxVisible ? 'visible' : ''}`}>
         {/* Menu de configuração */}
+
+
+        <button
+          >
+            <img
+              src='https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-letter-case.png' 
+              alt="Fonte compacta"
+              loading="lazy"
+            />
+          </button>
+
         <div className="font-options">
+
+        <div><span>.</span></div>
+          
           <button
             className={`ajust-option ${selectedFontSize === 'compacto' ? 'active' : ''}`}
             onClick={() => adjustFontSize('compacto')}
           >
             <img
-              src="https://placehold.co/20"
+              src='https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fonte-comp.png'
               alt="Fonte compacta"
               loading="lazy"
             />
@@ -193,7 +207,7 @@ const Header = ({ chapterIndex, bookId, title }) => {
             onClick={() => adjustFontSize('padrao')}
           >
             <img
-              src="https://placehold.co/20"
+              src='https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fonte-padrao.png'
               alt="Fonte padrão"
               loading="lazy"
             />
@@ -203,7 +217,7 @@ const Header = ({ chapterIndex, bookId, title }) => {
             onClick={() => adjustFontSize('grande')}
           >
             <img
-              src="https://placehold.co/20"
+              src='https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fonte-grande.png'
               alt="Fonte grande"
               loading="lazy"
             />
@@ -213,12 +227,17 @@ const Header = ({ chapterIndex, bookId, title }) => {
             onClick={() => adjustFontSize('super-grande')}
           >
             <img
-              src="https://placehold.co/20"
+              src='https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fonte-baixa-visao.png'
               alt="Baixa visão"
               loading="lazy"
             />
           </button>
         </div>
+
+
+
+
+
 
         <div><span>.</span></div>
 
