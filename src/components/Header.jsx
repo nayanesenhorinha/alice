@@ -147,18 +147,28 @@ useEffect(() => {
 
 // Aplica configurações armazenadas no localStorage ao carregar o componente
 useEffect(() => {
+  // Recupera o tamanho da fonte do localStorage
+  const savedFontSize = localStorage.getItem('font-size') || 'padrão';
+  setSelectedFontSize(savedFontSize); // Define o tamanho da fonte
+
+  // Aplica a classe do tamanho de fonte quando o componente for carregado
+  document.body.classList.remove('font-compact', 'font-large', 'font-super-grande', 'font-baixa-visao');
+
+  if (savedFontSize === 'compacto') {
+    document.body.classList.add('font-compact');
+  } else if (savedFontSize === 'padrão') {
+    // Não faz nada, pois 'padrão' é o estado inicial
+  } else if (savedFontSize === 'grande') {
+    document.body.classList.add('font-large');
+  } else if (savedFontSize === 'baixa-visao') {
+    document.body.classList.add('font-super-grande');
+  }
+
+  // Recupera outras configurações como o modo escuro e alinhamento
   if (isDarkMode) {
     document.body.classList.add('dark-mode');
   } else {
     document.body.classList.remove('dark-mode');
-  }
-
-  if (selectedFontSize === 'grande') {
-    document.body.classList.add('font-large');
-  } else if (selectedFontSize === 'compacto') {
-    document.body.classList.add('font-compact');
-  } else if (selectedFontSize === 'super-grande') {
-    document.body.classList.add('font-super-grande');
   }
 
   if (selectedAlignment === 'esquerda') {
@@ -166,7 +176,8 @@ useEffect(() => {
   } else if (selectedAlignment === 'justificado') {
     document.body.classList.add('align-justify');
   }
-}, [isDarkMode, selectedFontSize, selectedAlignment]);
+}, [isDarkMode, selectedFontSize, selectedAlignment]); 
+
 
 // Adiciona event listeners para rolagem e toque
 useEffect(() => {
