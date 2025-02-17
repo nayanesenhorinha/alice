@@ -1,11 +1,11 @@
 /* VARIÁVEIS E RESETS */
 
 :root {
+    --vermelho: #EC1C24;
+    --rosa: #F06CA3;
+    --azul: #37C5EC;
     --preto: #131313;
     --branco: #fefefe;
-    --cinza-escuro: #1e1e1e;
-    --cinza-medio: #373434;
-    --cinza-claro: #cacaca;
     --font-text: "Buenard", serif;
     --font-size: 1.1rem;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 ::selection {
-    background: pink; 
+    background: var(--vermelho); 
     color: var(--branco);
 }
 
@@ -84,19 +84,6 @@ body {
     height: 100%; 
     width: auto;
     overflow: hidden;
-}
-
-.cover_nome_autor {
-    position: absolute;
-    top: 5.5rem;
-    font-weight: bold;
-    color: var(--branco);
-    font-family: var(--font-text);
-}
-
-.cover_logo_editora {
-    position: absolute;
-    bottom: 20%;
 }
 
 /* INFOS::FOLHA DE ROSTO */
@@ -162,6 +149,10 @@ body {
     cursor: pointer;
 }
 
+.navigation button:hover {
+    background-color: var(--vermelho);
+}
+
 .navigation button img {
     width: 14px;
     cursor: pointer;
@@ -180,7 +171,7 @@ body {
 .chapter_title {
     font-family: var(--font-text);
     font-weight: 700;
-    color: var(--preto);
+    color: var(--vermelho);
     text-align: center;
     font-optical-sizing: auto;
     line-height: 2rem;
@@ -214,19 +205,7 @@ body {
     line-height: 1.6rem;
 }
 
-.chapter_poem {
-    color: var(--preto);
-    text-align: justify;
-    text-justify: inter-word;
-    hyphens: auto;
-    word-wrap: break-word;
-    font-family: var(--font-text);
-    width: 100%;
-    padding-left: 2rem;
-    margin: 0.3rem 0;
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-}
+
 
 
 /* Estilos de caractere */
@@ -234,6 +213,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 1rem 0;
+    color: var(--azul);
 }
 
 .chapter_text_italic {
@@ -251,6 +231,24 @@ body {
     font-family: var(--font-text);
     width: 100%;
     margin-bottom: 0.3rem;
+    color: var(--azul);
+    text-indent: 0;
+}
+
+.chapter_poem {
+    color: var(--preto);
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    word-wrap: break-word;
+    font-family: var(--font-text);
+    width: 100%;
+    padding-left: 2rem;
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-indent: 0;
+    color: var(--rosa);
 }
 
 /* Opções de alinhamento */
@@ -366,7 +364,6 @@ body {
 .header_titulo {
     color: var(--branco);
     font-size: 0.9rem;
-    
     font-family: var(--font-text);
     font-weight: 500;
 }
@@ -413,17 +410,15 @@ body {
     gap: 0.5rem;
 }
 
-
 .menu-config span {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--cinza-medio);
+    background-color: var(--azul);
     width: 1px;
     color: transparent;
-    color: var(--cinza-medio);
-    height: 25px;
+    height: 20px;
     
 }
 
@@ -471,7 +466,7 @@ body {
 
 .progress-bar-fill {
     height: 100%;
-    background-color: #4caf50;
+    background-color: var(--rosa);
     transition: width 0.2s ease-in-out;
 }
 
@@ -496,6 +491,7 @@ body {
     font-weight: bold;
     text-align: center;
     line-height: 1.8rem;
+    color: var(--azul);
 }
 
 .menu-fotos {
@@ -593,15 +589,30 @@ body.dark-mode {
     .info_nome_autor,
     .menu-index,
     .menu-button,
-    .menu-titulo,
     .info p {
         color: var(--branco);
     }
 
+    .menu-titulo {
+        color: var(--rosa);
+    }
+
+    .menu-config span {
+        background-color: var(--branco);
+    }
+    
     .header,
     .menu-config,
     .navigation button {
-        background-color: var(--cinza-escuro);
+        background-color: var(--azul);
+    }
+
+    .navigation button:hover {
+        background-color: var(--rosa);
+    }
+
+    .progress-bar {
+        background-color: var(--preto);
     }
 }
 

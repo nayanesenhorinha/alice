@@ -151,7 +151,6 @@ useEffect(() => {
   const savedFontSize = localStorage.getItem('font-size') || 'padrão';
   setSelectedFontSize(savedFontSize); // Define o tamanho da fonte
 
-  // Aplica a classe do tamanho de fonte quando o componente for carregado
   document.body.classList.remove('font-compact', 'font-large', 'font-super-grande', 'font-baixa-visao');
 
   if (savedFontSize === 'compacto') {
@@ -164,7 +163,6 @@ useEffect(() => {
     document.body.classList.add('font-super-grande');
   }
 
-  // Recupera outras configurações como o modo escuro e alinhamento
   if (isDarkMode) {
     document.body.classList.add('dark-mode');
   } else {
