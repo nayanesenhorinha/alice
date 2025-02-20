@@ -213,7 +213,7 @@ return (
     <div className='darkmode-option'>
       <button onClick={toggleDarkMode}>
         <img
-          src={isDarkMode ? 'https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-sun.png' : 'https://raw.githubusercontent.com/nayanesenhorinha/servidor_estaticos/refs/heads/main/alice/fi-rr-moon.png' }
+          src={isDarkMode ? 'https://raw.githubusercontent.com/nayanesenhorinha/alice/refs/heads/main/public/icons8-sol-24.png' : 'https://raw.githubusercontent.com/nayanesenhorinha/alice/refs/heads/main/public/icons8-sol-24%20(1).png' }
           alt={isDarkMode ? 'Ativar Modo Norturno' : 'Ativar modo Claro'}
           loading="lazy"
         />
@@ -262,7 +262,7 @@ return (
     className={`ajust-option ${selectedFontSize === 'compacto' ? 'opaco' : ''}`}
     disabled={selectedFontSize === 'compacto'}
   >
-    -
+    <img src="https://raw.githubusercontent.com/nayanesenhorinha/alice/refs/heads/main/public/icons8-diminuir-fonte-30.png" />
   </button>
 
   <button
@@ -270,7 +270,7 @@ return (
     className={`ajust-option ${selectedFontSize === 'baixa-visao' ? 'opaco' : ''}`}
     disabled={selectedFontSize === 'baixa-visao'}
   >
-    +
+    <img src="https://raw.githubusercontent.com/nayanesenhorinha/alice/refs/heads/main/public/icons8-aumentar-fonte-30.png" />
   </button>
       </div>
     </div>
