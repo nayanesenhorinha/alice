@@ -100,7 +100,7 @@ const adjustFontSize = (direction) => {
     newSize = fontSizes[Math.max(currentSizeIndex - 1, 0)];
   }
 
-  document.body.classList.remove('font-compact', 'font-large', 'font-super-grande', 'font-baixa-visao');
+  document.body.classList.remove('font-compact', 'font-large', 'font-super-grande', 'font-baixa-visao', 'add-opacity');
 
   if (newSize === 'compacto') {
     document.body.classList.add('font-compact');
@@ -110,6 +110,7 @@ const adjustFontSize = (direction) => {
     document.body.classList.add('font-large');
   } else if (newSize === 'baixa-visao') {
     document.body.classList.add('font-super-grande');
+
   }
 
   localStorage.setItem('font-size', newSize);
@@ -151,7 +152,7 @@ useEffect(() => {
   const savedFontSize = localStorage.getItem('font-size') || 'padrão';
   setSelectedFontSize(savedFontSize); // Define o tamanho da fonte
 
-  document.body.classList.remove('font-compact', 'font-large', 'font-super-grande', 'font-baixa-visao');
+  document.body.classList.remove('font-compact', 'font-large', 'font-super-grande', 'font-baixa-visao', 'add-opacity');
 
   if (savedFontSize === 'compacto') {
     document.body.classList.add('font-compact');
@@ -256,8 +257,21 @@ return (
       <div className='align-options-space'><span>.</span></div>
 
       <div className='font-options-button'>
-        <button onClick={() => adjustFontSize('decrease')}>-</button>
-        <button onClick={() => adjustFontSize('increase')}>+</button>
+        <button
+    onClick={() => adjustFontSize('decrease')}
+    className={`ajust-option ${selectedFontSize === 'compacto' ? 'opaco' : ''}`}
+    disabled={selectedFontSize === 'compacto'}
+  >
+    -
+  </button>
+
+  <button
+    onClick={() => adjustFontSize('increase')}
+    className={`ajust-option ${selectedFontSize === 'baixa-visao' ? 'opaco' : ''}`}
+    disabled={selectedFontSize === 'baixa-visao'}
+  >
+    +
+  </button>
       </div>
     </div>
   </div>

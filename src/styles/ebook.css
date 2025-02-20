@@ -106,9 +106,10 @@ body {
 }
 
 .info_head p {
-    margin-top: 2rem;
+    margin-top: 1.6rem;
     font-weight: bold;
     font-size: 1rem;
+    color: var(--vermelho);
 }
 
 .info_titulo p {
@@ -175,7 +176,7 @@ body {
     text-align: center;
     font-optical-sizing: auto;
     line-height: 2rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .chapter_subtitle {
@@ -616,3 +617,8 @@ body.dark-mode {
     }
 }
 
+.opaco {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
