@@ -22,7 +22,7 @@ const Chapter = ({   bookId, chapterNumber, onNext, goToSummary, goToCover, onPr
   
   useEffect(() => {
     const bookTitleT = book_infos.title;
-    document.title = `${chapterTitle} | ${bookTitleT}`;
+    document.title = `${chapterTitle} of the Alice book`;
     window.scrollTo(0, 0);
     return () => {
       document.title = book_infos.title;

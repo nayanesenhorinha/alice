@@ -17,7 +17,7 @@ const chapterTitle = "Summary";
 
 useEffect(() => {
   const bookTitleT = book_infos.title; 
-  document.title = `${chapterTitle} | ${bookTitleT}`;
+  document.title = `${chapterTitle} of the Alice book`;
   return () => {
     document.title = book_infos.title; 
   };

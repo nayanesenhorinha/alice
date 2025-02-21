@@ -120,10 +120,10 @@ const chapters = {
         className: "chapter_text"
       },{
         text: ".YKCOWREBBAJ",
-        className: "chapter_poem"
+        className: "chapter_text"
       },{
         text: "sevot yhtils eht dna, gillirb sawT’<br/>ebaw eht ni elbmig dna eryg diD<br/>     ,sevogorob eht erew ysmim llA<br/>.ebargtuo shtar emom eht dnA<br/><br/>",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "She puzzled over this for some time, but at last a bright thought struck her. “Why, it’s a Looking-glass book, of course! And if I hold it up to a glass, the words will all go the right way again.”",
         className: "chapter_text"
@@ -132,28 +132,28 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "JABBERWOCKY.",
-        className: "chapter_poem"
+        className: "chapter_text"
       },{
         text: "’Twas brillig, and the slithy toves<br/>Did gyre and gimble in the wabe;<br/>All mimsy were the borogoves,<br/>And the mome raths outgrabe.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“Beware the Jabberwock, my son!<br/>The jaws that bite, the claws that catch!<br/>Beware the Jubjub bird, and shun<br/>The frumious Bandersnatch!”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "He took his vorpal sword in hand:<br/>Long time the manxome foe he sought—<br/>So rested he by the Tumtum tree,<br/>And stood awhile in thought.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "And as in uffish thought he stood,<br/>The Jabberwock, with eyes of flame,<br/>Came whiffling through the tulgey wood,<br/>And burbled as it came!",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "One, two! One, two! And through and through<br/>The vorpal blade went snicker-snack!<br/>He left it dead, and with its head<br/>He went galumphing back.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“And hast thou slain the Jabberwock?<br/>Come to my arms, my beamish boy!<br/>O frabjous day! Callooh! Callay!”<br/>He chortled in his joy.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "’Twas brillig, and the slithy toves<br/>Did gyre and gimble in the wabe;<br/>All mimsy were the borogoves,<br/>And the mome raths outgrabe.<br/><br/>",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“It seems very pretty,” she said when she had finished it, “but it’s <i>rather</i> hard to understand!” (You see she didn’t like to confess, even to herself, that she couldn’t make it out at all.) “Somehow it seems to fill my head with ideas—only I don’t exactly know what they are! However, <i>somebody</i> killed <i>something</i>: that’s clear, at any rate—”",
         className: "chapter_text"
