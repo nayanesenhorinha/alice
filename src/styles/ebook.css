@@ -207,35 +207,18 @@ body {
 }
 
 .chapter_text_cit {
-    color: var(--preto);
     text-align: justify;
     text-justify: inter-word;
     hyphens: auto;
     word-wrap: break-word;
-    padding-left: 1.5rem;
+    padding-left: 0.8rem;
     font-family: var(--font-text);
     width: 100%;
-    margin-bottom: 0.3rem;
+    margin-bottom: 1rem;
     color: var(--azul);
     text-indent: 0;
+    padding: 0 2.3rem;
 }
-
-.chapter_poem {
-    color: var(--preto);
-    text-align: justify;
-    text-justify: inter-word;
-    hyphens: auto;
-    word-wrap: break-word;
-    font-family: var(--font-text);
-    width: 100%;
-    padding-left: 2rem;
-    margin: 0.3rem 0;
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    text-indent: 0;
-    color: var(--rosa);
-}
-
 
 
 
@@ -433,7 +416,7 @@ body {
 }
 
 .menu-config .darkmode-option button img {
-    width: 24px;
+    width: 20px;
 }
 
 .font-options-button {
@@ -441,8 +424,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 0.3rem;
-    margin-left: -2px;
+    gap: 0.5rem;
 }
 
 

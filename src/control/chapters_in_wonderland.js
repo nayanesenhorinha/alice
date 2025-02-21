@@ -124,8 +124,8 @@ const chapters = {
           text: "’I’m sure I’m not Ada,’ she said, ‘for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, she’s she, and I’m I, and—oh dear, how puzzling it all is! I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is—oh dear! I shall never get to twenty at that rate! However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, that’s all wrong, I’m certain! I must have been changed for Mabel! I’ll try and say ‘How doth the little—‘‘ and she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do",
           className: "chapter_text"  
         },{
-          text: "— ’How doth the little crocodile</br>Improve his shining tail,</br>And pour the waters of the Nile</br> On every golden scale!</br></br>‘How cheerfully he seems to grin, </br>How neatly spread his claws,</br> And welcome little fishes in</br> With gently smiling jaws!’</br></br>",
-          className: "chapter_text chapter_text_italic"
+          text: "— ’How doth the little crocodile</br>Improve his shining tail,</br>And pour the waters of the Nile</br> On every golden scale!</br></br>‘How cheerfully he seems to grin, </br>How neatly spread his claws,</br> And welcome little fishes in</br> With gently smiling jaws!’",
+          className: "chapter_text_cit"
         },{
           text: "’I’m sure those are not the right words,’ said poor Alice, and her eyes filled with tears again as she went on, ‘I must be Mabel after all, and I shall have to go and live in that poky little house, and have next to no toys to play with, and oh! ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here! It’ll be no use their putting their heads down and saying ‘Come up again, dear!’ I shall only look up and say ‘Who am I then? Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else’—but, oh dear!’ cried Alice, with a sudden burst of tears, ‘I do wish they would put their heads down! I am so very tired of being all alone here!’",
           className: "chapter_text"
@@ -526,29 +526,29 @@ const chapters = {
           text: "Alice folded her hands, and began:—",
           className: "chapter_text"
         },{
-          text: "’You are old, Father William,’ the young man said, ‘And your hair has become very white; And yet you incessantly stand on your head— Do you think, at your age, it is right?’",
-          className: "chapter_text chapter_text_italic"
+          text: "’You are old, Father William,’ the young man said,<br/>‘And your hair has become very white;<br/>And yet you incessantly stand on your head—<br/>Do you think, at your age, it is right?’",
+          className: "chapter_text_cit chapter_text_italic"
         },{
-          text: "’In my youth,’ Father William replied to his son, ‘I feared it might injure the brain; But, now that I’m perfectly sure I have none, Why, I do it again and again.’",
-          className: "chapter_text chapter_text_italic"
+          text: "’In my youth,’ Father William replied to his son,<br/>‘I feared it might injure the brain;<br/>But, now that I’m perfectly sure I have none,<br/>Why, I do it again and again.’",
+          className: "chapter_text_cit chapter_text_italic"
         },{
-          text: "You are old,’ said the youth, ‘as I mentioned before, And have grown most uncommonly fat; Yet you turned a back- somersault in at the door— Pray, what is the reason of that?’",
-          className: "chapter_text chapter_text_italic"
+          text: "You are old,’ said the youth, ‘as I mentioned before,<br/>And have grown most uncommonly fat;<br/>Yet you turned a back- somersault in at the door—<br/>Pray, what is the reason of that?’",
+          className: "chapter_text_cit chapter_text_italic"
         },{
-          text: "’In my youth,’ said the sage, as he shook his grey locks, ‘I kept all my limbs very supple By the use of this ointment—one shilling the box— Allow me to sell you a couple?’",
-          className: "chapter_text chapter_text_italic"
+          text: "’In my youth,’ said the sage, as he shook his grey locks,<br/>‘I kept all my limbs very supple<br/>By the use of this ointment—one shilling the box—<br/>Allow me to sell you a couple?’",
+          className: "chapter_text_cit chapter_text_italic"
         },{
-          text: "’You are old,’ said the youth, ‘and your jaws are too weak For anything tougher than suet; Yet you finished the goose, with the bones and the beak— Pray how did you manage to do it?’",
-          className: "chapter_text chapter_text_italic"
+          text: "’You are old,’ said the youth, ‘and your jaws are too weak<br/>For anything tougher than suet;<br/>Yet you finished the goose, with the bones and the beak—<br/>Pray how did you manage to do it?’",
+          className: "chapter_text_cit chapter_text_italic"
         },{
-          text: "’In my youth,’ said his father, ‘I took to the law, And argued each case with my wife; And the muscular strength, which it gave to my jaw, Has lasted the rest of my life.’",
-          className: "chapter_text chapter_text_italicc"
+          text: "’In my youth,’ said his father, ‘I took to the law,<br/>And argued each case with my wife;<br/>And the muscular strength, which it gave to my jaw,<br/>Has lasted the rest of my life.’",
+          className: "chapter_text_cit chapter_text_italicc"
         },{
-          text: "’You are old,’ said the youth, ‘one would hardly suppose That your eye was as steady as ever; Yet you balanced an eel on the end of your nose— What made you so awfully clever?’",
-          className: "chapter_text chapter_text_italic"
+          text: "’You are old,’ said the youth, ‘one would hardly suppose<br/>That your eye was as steady as ever;<br/>Yet you balanced an eel on the end of your nose—<br/>What made you so awfully clever?’",
+          className: "chapter_text_cit chapter_text_italic"
         },{
-          text: "’I have answered three questions, and that is enough,’ Said his father; ‘don’t give yourself airs! Do you think I can listen all day to such stuff? Be off, or I’ll kick you down stairs!’",
-          className: "chapter_text chapter_text_italic"
+          text: "’I have answered three questions, and that is enough,’<br/>Said his father; ‘don’t give yourself airs!<br/>Do you think I can listen all day to such stuff?<br/>Be off, or I’ll kick you down stairs!’",
+          className: "chapter_text_cit chapter_text chapter_text_italic"
         },{
           text: "’That is not said right,’ said the Caterpillar.",
           className: "chapter_text"
@@ -782,8 +782,11 @@ const chapters = {
           text: "’Talking of axes,’ said the Duchess, ‘chop off her head!’ Alice glanced rather anxiously at the cook, to see if she meant to take the hint; but the cook was busily stirring the soup, and seemed not to be listening, so she went on again: ‘Twenty-four hours, I think; or is it twelve? I—’ ’Oh, don’t bother ME,’ said the Duchess; ‘I never could abide figures!’ And with that she began nursing her child again, singing a sort of lullaby to it as she did so, and giving it a violent shake at the end of every line:",
           className: "chapter_text"
         },{
-          text: "’<i>Speak roughly to your little boy,</br>And beat him when he sneezes:</br>He only does it to annoy,</br>Because he knows it teases.</i>’</br> CHORUS</br>(In which the cook and the baby joined):—",
-          className: "chapter_text chapter_text_cit "
+          text: "’Speak roughly to your little boy,</br>And beat him when he sneezes:</br>He only does it to annoy,</br>Because he knows it teases.’ ",
+          className: "chapter_text_cit "
+        },{
+          text: "CHORUS</br>(In which the cook and the baby joined):—",
+          className: "chapter_text"
         },{
           text: "’Wow! wow! wow!’",
           className: "chapter_text"
@@ -791,8 +794,11 @@ const chapters = {
           text: "While the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:—",
           className: "chapter_text"
         },{
-          text: "’<i>I speak severely to my boy,</br> I beat him when he sneezes;</br> For he can thoroughly enjoy</br>The pepper when he pleases!’</i></br> CHORUS",
-          className: "chapter_text chapter_text_cit"
+          text: "’I speak severely to my boy,</br> I beat him when he sneezes;</br> For he can thoroughly enjoy</br>The pepper when he pleases!’",
+          className: "chapter_text_cit"
+        },{
+          text: "CHORUS",
+          className: "chapter_text"
         },{
           text: "’Wow! wow! wow!’",
           className: "chapter_text"
@@ -1056,8 +1062,20 @@ const chapters = {
       text: "The Hatter shook his head mournfully. ‘Not I!’ he replied. ‘We quarrelled last March—just before he went mad, you know—’ (pointing with his tea spoon at the March Hare,) ‘—it was at the great concert given by the Queen of Hearts, and I had to sing" ,
       className: "chapter_text"
     },{ 
-      text: "<i>‘‘Twinkle, twinkle, little bat!</br> How I wonder what you’re at!’</i></br> You know the song, perhaps?’</br>’I’ve heard something like it,’ said Alice.</br>’It goes on, you know,’ the Hatter continued, ‘in this way:—</br><i>‘‘Up above the world you fly, Like a tea-tray in the sky.</br>Twinkle, twinkle—‘‘</i>" ,
-      className: "chapter_text chapter_text_cit"
+      text: "‘‘Twinkle, twinkle, little bat!</br> How I wonder what you’re at!’" ,
+      className: "chapter_text_cit"
+    },{
+      text: "You know the song, perhaps?’",
+      className: "chapter_text"
+    },{
+      text: "’I’ve heard something like it,’ said Alice.",
+      className: "chapter_text"
+    },{
+      text: "’It goes on, you know,’ the Hatter continued, ‘in this way:—",
+      className: "chapter_text"
+    },{
+      text: "‘‘Up above the world you fly, Like a tea-tray in the sky.</br>Twinkle, twinkle—‘‘",
+      className: "chapter_text_cit"
     },{ 
       text: "Here the Dormouse shook itself, and began singing in its sleep <i>‘Twinkle, twinkle, twinkle, twinkle—’</i> and went on so long that they had to pinch it to make it stop." ,
       className: "chapter_text"
@@ -1879,7 +1897,7 @@ const chapters = {
       className: "chapter_text"
     },{ 
       text: "’’Tis the voice of the Lobster; I heard him declare, ‘You have baked me too brown, I must sugar my hair.’ As a duck with its eyelids, so he with his nose Trims his belt and his buttons, and turns out his toes.’" ,
-      className: "chapter_text"
+      className: "chapter_text_cit"
     },{ 
       text: "’That’s different from what I used to say when I was a child,’ said the Gryphon." ,
       className: "chapter_text"
@@ -1909,10 +1927,10 @@ const chapters = {
       className: "chapter_text"
     },{ 
       text: "I passed by his garden, and marked, with one eye, How the Owl and the Panther were sharing a pie—’" ,
-      className: "chapter_text chapter_text_italic"
+      className: "chapter_text_cit"
     },{ 
-      text: "The Panther took pie-crust, and gravy, and meat, While the Owl had the dish as its share of the treat. When the pie was all finished, the Owl, as a boon, Was kindly permitted to pocket the spoon: While the Panther received knife and fork with a growl, And concluded the banquet—" ,
-      className: "chapter_text chapter_text_italic"
+      text: "The Panther took pie-crust, and gravy, and meat,<br/>While the Owl had the dish as its share of the treat.<br/>When the pie was all finished, the Owl, as a boon,<br/>Was kindly permitted to pocket the spoon:<br/>While the Panther received knife and fork with a growl,<br/>And concluded the banquet—" ,
+      className: "chapter_text_cit"
     },{ 
       text: "’What IS the use of repeating all that stuff,’ the Mock Turtle interrupted, ‘if you don’t explain it as you go on? It’s by far the most confusing thing I ever heard!’" ,
       className: "chapter_text"
@@ -1929,11 +1947,11 @@ const chapters = {
       text: "The Mock Turtle sighed deeply, and began, in a voice sometimes choked with sobs, to sing this:—" ,
       className: "chapter_text"
     },{ 
-      text: "’Beautiful Soup, so rich and green, Waiting in a hot tureen! Who for such dainties would not stoop? Soup of the evening, beautiful Soup! Soup of the evening, beautiful Soup! Beau— ootiful Soo—oop! Beau—ootiful Soo—oop! Soo—oop of the e—e—evening, Beautiful, beautiful Soup!" ,
-      className: "chapter_text chapter_text_italic"
+      text: "’Beautiful Soup, so rich and green,<br/>Waiting in a hot tureen!<br/>Who for such dainties would not stoop?<br/>Soup of the evening, beautiful Soup!<br/>Soup of the evening, beautiful Soup!<br/>Beau— ootiful Soo—oop!<br/>Beau—ootiful Soo—oop! Soo—oop of the e—e—evening,<br/>Beautiful, beautiful Soup!" ,
+      className: "chapter_text_cit"
     },{ 
-      text: "’Beautiful Soup! Who cares for fish, Game, or any other dish? Who would not give all else for two pennyworth only of beautiful Soup? Pennyworth only of beautiful Soup? Beau— ootiful Soo—oop! Beau—ootiful Soo—oop! Soo—oop of the e—e—evening, Beautiful, beauti—FUL SOUP!’" ,
-      className: "chapter_text chapter_text_italic"
+      text: "’Beautiful Soup! Who cares for fish,<br/>Game, or any other dish?<br/>Who would not give all else for two pennyworth only of beautiful Soup?<br/>Pennyworth only of beautiful Soup?<br/>Beau— ootiful Soo—oop!<br/>Beau—ootiful Soo—oop!<br/>Soo—oop of the e—e—evening,<br/>Beautiful, beauti—FUL SOUP!’" ,
+      className: "chapter_text_cit"
     },{ 
       text: "’Chorus again!’ cried the Gryphon, and the Mock Turtle had just begun to repeat it, when a cry of ‘The trial’s beginning!’ was heard in the distance." ,
       className: "chapter_text"
@@ -1944,8 +1962,8 @@ const chapters = {
       text: "’What trial is it?’ Alice panted as she ran; but the Gryphon only answered ‘Come on!’ and ran the faster, while more and more faintly came, carried on the breeze that followed them, the melancholy words:—" ,
       className: "chapter_text"
     },{ 
-      text: "’Soo—oop of the e—e—evening, Beautiful, beautiful Soup!’" ,
-      className: "chapter_text chapter_text_italic"
+      text: "’Soo—oop of the e—e—evening,<br/>Beautiful, beautiful Soup!’" ,
+      className: "chapter_text_cit"
     }
   ]),
 
@@ -1984,8 +2002,8 @@ const chapters = {
       text: "On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—" ,
       className: "chapter_text"
     },{ 
-      text: "’The Queen of Hearts, she made some tarts, All on a summer day: The Knave of Hearts, he stole those tarts, And took them quite away!’" ,
-      className: "chapter_text chapter_text_italic"
+      text: "’The Queen of Hearts, she made some tarts,<br/>All on a summer day:<br/>The Knave of Hearts, he stole those tarts,<br/>And took them quite away!’" ,
+      className: "chapter_text_cit"
     },{ 
       text: "’Consider your verdict,’ the King said to the jury." ,
       className: "chapter_text"
@@ -2271,22 +2289,22 @@ const chapters = {
       className: "chapter_text"
     },{ 
       text: "’They told me you had been to her, And mentioned me to him: She gave me a good character, But said I could not swim." ,
-      className: "chapter_text chapter_text_italic"
+      className: "chapter_text_cit"
     },{ 
       text: "He sent them word I had not gone (We know it to be true): If she should push the matter on, What would become of you?" ,
-      className: "chapter_text chapter_text_italic"
+      className: "chapter_text_cit"
     },{ 
       text: "I gave her one, they gave him two, You gave us three or more; They all returned from him to you, Though they were mine before." ,
-      className: "chapter_text chapter_text_italic"
+      className: "chapter_text_cit"
     },{ 
       text: "If I or she should chance to be Involved in this affair, He trusts to you to set them free, Exactly as we were." ,
-      className: "chapter_text chapter_text_italic"
+      className: "chapter_text_cit"
     },{ 
       text: "My notion was that you had been (Before she had this fit) An obstacle that came between Him, and ourselves, and it." ,
-      className: "chapter_text chapter_text_italic"
+      className: "chapter_text_cit"
     },{ 
       text: "Don’t let him know she liked them best, For this must ever be A secret, kept from all the rest, Between yourself and me.’" ,
-      className: "chapter_text chapter_text_italic"
+      className: "chapter_text_cit"
     },{ 
       text: "’That’s the most important piece of evidence we’ve heard yet,’ said the King, rubbing his hands; ‘so now let the jury—’" ,
       className: "chapter_text"
@@ -2344,6 +2362,9 @@ const chapters = {
     },{ 
       text: "’Oh, I’ve had such a curious dream!’ said Alice, and she told her sister, as well as she could remember them, all these strange Adventures of hers that you have just been reading about; and when she had finished, her sister kissed her, and said, ‘It was a curious dream, dear, certainly: but now run in to your tea; it’s getting late.’ So Alice got up and ran off, thinking while she ran, as well she might, what a wonderful dream it had been." ,
       className: "chapter_text"
+    },{
+      text: "* * *",
+      className: "chapter_text_space "
     },{ 
       text: "But her sister sat still just as she left her, leaning her head on her hand, watching the setting sun, and thinking of little Alice and all her wonderful Adventures, till she too began dreaming after a fashion, and this was her dream:—" ,
       className: "chapter_text"
