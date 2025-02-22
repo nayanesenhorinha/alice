@@ -27,22 +27,34 @@ const Credits = ({onNext, onPrev, goToSummary}) => {
       <div className='credits_container'>
         <p className='thead'>Título dos créditos</p>
         <div className='tr'>
-          <p className='th'>Ilustrações</p>
+          <p className='th ft'>Ilustração e webdesigner</p>
           <p className='th'>Nayane de Souza</p>
         </div>
+
+        
+        
         <div className='tr'>
-          <p className='th'>Projeto gráfico</p>
-          <p className='th'>&nbsp;</p>
-        </div>
-        <div className='tr'>
-          <p className='th'>Desenvolvimento</p>
-          <p className='th'>&nbsp;</p>
-        </div>
-        <div className='tr'>
-          <p className='th'>Texto</p>
+          <p className='th ft'>Texto</p>
           <p className='th'>Projeto Gutemberg</p>
         </div>
-      </div>
+
+        <div className='tr'>
+          <p className='th ft'>Revisão</p>
+          <p className='th'>Nomes</p>
+        </div>
+
+        <div className='tr'>
+          <p className='th ft'>Programação</p>
+          <p className='th'>Nayane de Souza</p>
+        </div>
+
+        <div className='tr'>
+          <p className='th ft'>Agradecimentos</p>
+          <p className='th'>Nomes</p>
+        </div>
+
+        <p className='tfooter'>Editora Sei lá ainda<br/>2025</p>
+    </div>
 
       <Navigation 
         onPrev={onPrev} 

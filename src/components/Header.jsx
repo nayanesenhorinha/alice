@@ -266,7 +266,7 @@ return (
       className={`ajust-option ${selectedFontSize === 'compacto' ? 'opaco' : ''}`}
       disabled={selectedFontSize === 'compacto'}
     >
-      <img src="https://raw.githubusercontent.com/nayanesenhorinha/alice/refs/heads/main/public/icons8-diminuir-fonte-24.png" />
+      <img src="https://raw.githubusercontent.com/nayanesenhorinha/alice/refs/heads/main/public/icons8-diminuir-fonte-24%20(1).png" />
     </button>
     </div>
   
@@ -277,7 +277,7 @@ return (
     className={`ajust-option ${selectedFontSize === 'baixa-visao' ? 'opaco' : ''}`}
     disabled={selectedFontSize === 'baixa-visao'}
   >
-    <img src="https://raw.githubusercontent.com/nayanesenhorinha/alice/refs/heads/main/public/icons8-aumentar-fonte-24.png" />
+    <img src="https://raw.githubusercontent.com/nayanesenhorinha/alice/refs/heads/main/public/icons8-aumentar-fonte-24%20(2).png" />
   </button>
       </div>
     </div>

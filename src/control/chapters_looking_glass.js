@@ -685,10 +685,10 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“Tweedledum and Tweedledee</br>Agreed to have a battle;</br>For Tweedledum said Tweedledee</br>Had spoiled his nice new rattle.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "Just then flew down a monstrous crow,</br>As black as a tar-barrel;</br>Which frightened both the heroes so,</br>They quite forgot their quarrel.”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“I know what you’re thinking about,” said Tweedledum: “but it isn’t so, nohow.”",
         className: "chapter_text"
@@ -754,58 +754,58 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“The sun was shining on the sea,<br/>Shining with all his might:<br/>He did his very best to make<br/>The billows smooth and bright—<br/>And this was odd, because it was<br/>The middle of the night.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "The moon was shining sulkily,<br/>Because she thought the sun<br/>Had got no business to be there<br/>After the day was done—<br/>‘It’s very rude of him,’ she said,<br/>‘To come and spoil the fun!’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "The sea was wet as wet could be,<br/>The sands were dry as dry.<br/>You could not see a cloud, because<br/>No cloud was in the sky:<br/>No birds were flying over head—<br/>There were no birds to fly.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "The Walrus and the Carpenter<br/>Were walking close at hand;<br/>They wept like anything to see<br/>Such quantities of sand:<br/>‘If this were only cleared away,’<br/>They said, ‘it <i>would</i> be grand!’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘If seven maids with seven mops<br/>Swept it for half a year,<br/>Do you suppose,’ the Walrus said,<br/>‘That they could get it clear?’<br/>‘I doubt it,’ said the Carpenter,<br/>And shed a bitter tear.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘O Oysters, come and walk with us!’<br/>The Walrus did beseech.<br/>‘A pleasant walk, a pleasant talk,<br/>Along the briny beach:<br/>We cannot do with more than four,<br/>To give a hand to each.’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "The eldest Oyster looked at him.<br/>But never a word he said:<br/>The eldest Oyster winked his eye,<br/>And shook his heavy head—<br/>Meaning to say he did not choose<br/>To leave the oyster-bed.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "But four young oysters hurried up,<br/>All eager for the treat:<br/>Their coats were brushed, their faces washed,<br/>Their shoes were clean and neat—<br/>And this was odd, because, you know,<br/>They hadn’t any feet.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "Four other Oysters followed them,<br/>And yet another four;<br/>And thick and fast they came at last,<br/>And more, and more, and more—<br/>All hopping through the frothy waves,<br/>And scrambling to the shore.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "The Walrus and the Carpenter<br/>Walked on a mile or so,<br/>And then they rested on a rock<br/>Conveniently low:<br/>And all the little Oysters stood<br/>And waited in a row.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘The time has come,’ the Walrus said,<br/>‘To talk of many things:<br/>Of shoes—and ships—and sealing-wax—<br/>Of cabbages—and kings—<br/>And why the sea is boiling hot—<br/>And whether pigs have wings.’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘But wait a bit,’ the Oysters cried,<br/>‘Before we have our chat;<br/>For some of us are out of breath,<br/>And all of us are fat!’<br/>‘No hurry!’ said the Carpenter.<br/>They thanked him much for that.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘A loaf of bread,’ the Walrus said,<br/>‘Is what we chiefly need:<br/>Pepper and vinegar besides<br/>Are very good indeed—<br/>Now if you’re ready Oysters dear,<br/>We can begin to feed.’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘But not on us!’ the Oysters cried,<br/>Turning a little blue,<br/>‘After such kindness, that would be<br/>A dismal thing to do!’<br/>‘The night is fine,’ the Walrus said<br/>‘Do you admire the view?",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘It was so kind of you to come!<br/>And you are very nice!’<br/>The Carpenter said nothing but<br/>‘Cut us another slice:<br/>I wish you were not quite so deaf—<br/>I’ve had to ask you twice!’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘It seems a shame,’ the Walrus said,<br/>‘To play them such a trick,<br/>After we’ve brought them out so far,<br/>And made them trot so quick!’<br/>The Carpenter said nothing but<br/>‘The butter’s spread too thick!’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘I weep for you,’ the Walrus said.<br/>‘I deeply sympathize.’<br/>With sobs and tears he sorted out<br/>Those of the largest size.<br/>Holding his pocket handkerchief<br/>Before his streaming eyes.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘O Oysters,’ said the Carpenter.<br/>‘You’ve had a pleasant run!<br/>Shall we be trotting home again?’<br/>But answer came there none—<br/>And that was scarcely odd, because<br/>They’d eaten every one.”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“I like the Walrus best,” said Alice: “because you see he was a little sorry for the poor oysters.”",
         className: "chapter_text"
@@ -1338,7 +1338,7 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“Humpty Dumpty sat on a wall:<br/>Humpty Dumpty had a great fall.<br/>All the King’s horses and all the King’s men<br/>Couldn’t put Humpty Dumpty in his place again.”",
-        className: "chapter_poem "
+        className: "chapter_text_cit"
       },{
         text: "“That last line is much too long for the poetry,” she added, almost out loud, forgetting that Humpty Dumpty would hear her.",
         className: "chapter_text"
@@ -1563,7 +1563,7 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "’Twas brillig, and the slithy toves<br/>Did gyre and gimble in the wabe;<br/>All mimsy were the borogoves,<br/>And the mome raths outgrabe.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“That’s enough to begin with,” Humpty Dumpty interrupted: “there are plenty of hard words there. ‘<i>Brillig</i>’ means four o’clock in the afternoon—the time when you begin <i>broiling</i> things for dinner.”",
         className: "chapter_text"
@@ -1632,7 +1632,7 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“In winter, when the fields are white,<br/>I sing this song for your delight—",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "only I don’t sing it,” he added, as an explanation.",
         className: "chapter_text"
@@ -1644,16 +1644,16 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“In spring, when woods are getting green,<br/>I’ll try and tell you what I mean.”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“Thank you very much,” said Alice.",
         className: "chapter_text"
       },{
         text: "“In summer, when the days are long,<br/>Perhaps you’ll understand the song:",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "In autumn, when the leaves are brown,<br/>Take pen and ink, and write it down.”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“I will, if I can remember it so long,” said Alice.",
         className: "chapter_text"
@@ -1662,13 +1662,13 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“I sent a message to the fish:<br/>I told them ‘This is what I wish.’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "The little fishes of the sea,<br/>They sent an answer back to me.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "The little fishes’ answer was<br/>‘We cannot do it, Sir, because—’”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“I’m afraid I don’t quite understand,” said Alice.",
         className: "chapter_text"
@@ -1677,46 +1677,46 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“I sent to them again to say<br/>‘It will be better to obey.’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "The fishes answered with a grin,<br/>‘Why, what a temper you are in!’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "I told them once, I told them twice:<br/>They would not listen to advice.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "I took a kettle large and new,<br/>Fit for the deed I had to do.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "My heart went hop, my heart went thump;<br/>I filled the kettle at the pump.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "Then some one came to me and said,<br/>‘The little fishes are in bed.’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "I said to him, I said it plain,<br/>‘Then you must wake them up again.’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "I said it very loud and clear;<br/>I went and shouted in his ear.”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "Humpty Dumpty raised his voice almost to a scream as he repeated this verse, and Alice thought with a shudder, “I wouldn’t have been the messenger for <i>anything!</i>”",
         className: "chapter_text"
       },{
         text: "“But he was very stiff and proud;<br/>He said ‘You needn’t shout so loud!’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "And he was very proud and stiff;<br/>He said ‘I’d go and wake them, if—’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "I took a corkscrew from the shelf:<br/>I went to wake them up myself.",
-        className: "chapter_poem"
+        className: "chapter_text_citm"
       },{
         text: "And when I found the door was locked,<br/>I pulled and pushed and kicked and knocked.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "And when I found the door was shut,<br/>I tried to turn the handle, but—”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "There was a long pause.",
         className: "chapter_text"
@@ -1862,7 +1862,7 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“The Lion and the Unicorn were fighting for the crown:<br/>The Lion beat the Unicorn all round the town.<br/>Some gave them white bread, some gave them brown;<br/>Some gave them plum-cake and drummed them out of town.”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“Does—the one—that wins—get the crown?” she asked, as well as she could, for the run was putting her quite out of breath.",
         className: "chapter_text"
@@ -2319,31 +2319,31 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“I’ll tell thee everything I can;<br/>There’s little to relate.<br/>I saw an aged aged man,<br/>A-sitting on a gate.<br/>‘Who are you, aged man?’ I said,<br/>‘and how is it you live?’<br/>And his answer trickled through my head<br/>Like water through a sieve.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "He said ‘I look for butterflies<br/>That sleep among the wheat:<br/>I make them into mutton-pies,<br/>And sell them in the street.<br/>I sell them unto men,’ he said,<br/>‘Who sail on stormy seas;<br/>And that’s the way I get my bread—<br/>A trifle, if you please.’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "But I was thinking of a plan<br/>To dye one’s whiskers green,<br/>And always use so large a fan<br/>That they could not be seen.<br/>So, having no reply to give<br/>To what the old man said,<br/>I cried, ‘Come, tell me how you live!’<br/>And thumped him on the head.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "His accents mild took up the tale:<br/>He said ‘I go my ways,<br/>And when I find a mountain-rill,<br/>I set it in a blaze;<br/>And thence they make a stuff they call<br/>Rolands’ Macassar Oil—<br/>Yet twopence-halfpenny is all<br/>They give me for my toil.’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "But I was thinking of a way<br/>To feed oneself on batter,<br/>And so go on from day to day<br/>Getting a little fatter.<br/>I shook him well from side to side,<br/>Until his face was blue:<br/>‘Come, tell me how you live,’ I cried,<br/>‘And what it is you do!’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "He said ‘I hunt for haddocks’ eyes<br/>Among the heather bright,<br/>And work them into waistcoat-buttons<br/>In the silent night.<br/>And these I do not sell for gold<br/>Or coin of silvery shine<br/>But for a copper halfpenny,<br/>And that will purchase nine.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘I sometimes dig for buttered rolls,<br/>Or set limed twigs for crabs;<br/>I sometimes search the grassy knolls<br/>For wheels of Hansom-cabs.<br/>And that’s the way’ (he gave a wink)<br/>‘By which I get my wealth—<br/>And very gladly will I drink<br/>Your Honour’s noble health.’",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "I heard him then, for I had just<br/>Completed my design<br/>To keep the Menai bridge from rust<br/>By boiling it in wine.<br/>I thanked him much for telling me<br/>The way he got his wealth,<br/>But chiefly for his wish that he<br/>Might drink my noble health.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "And now, if e’er by chance I put<br/>My fingers into glue<br/>Or madly squeeze a right-hand foot<br/>Into a left-hand shoe,<br/>Or if I drop upon my toe<br/>A very heavy weight,<br/>I weep, for it reminds me so,<br/>Of that old man I used to know—<br/>Whose look was mild, whose speech was slow,<br/>Whose hair was whiter than the snow,<br/>Whose face was very like a crow,<br/>With eyes, like cinders, all aglow,<br/>Who seemed distracted with his woe,<br/>Who rocked his body to and fro,<br/>And muttered mumblingly and low,<br/>As if his mouth were full of dough,<br/>Who snorted like a buffalo—<br/>That summer evening, long ago,<br/>A-sitting on a gate.”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "As the Knight sang the last words of the ballad, he gathered up the reins, and turned his horse’s head along the road by which they had come. “You’ve only a few yards to go,” he said, “down the hill and over that little brook, and then you’ll be a Queen—But you’ll stay and see me off first?” he added as Alice turned with an eager look in the direction to which he pointed. “I shan’t be long. You’ll wait and wave your handkerchief when I get to that turn in the road? I think it’ll encourage me, you see.”",
         className: "chapter_text"
@@ -2620,7 +2620,7 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“Hush-a-by lady, in Alice’s lap!<br/>Till the feast’s ready, we’ve time for a nap:<br/>When the feast’s over, we’ll go to the ball—<br/>Red Queen, and White Queen, and Alice, and all!",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“And now you know the words,” she added, as she put her head down on Alice’s other shoulder, “just sing it through to me. I’m getting sleepy, too.” In another moment both Queens were fast asleep, and snoring loud.",
         className: "chapter_text"
@@ -2677,25 +2677,25 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“To the Looking-Glass world it was Alice that said,<br/>‘I’ve a sceptre in hand, I’ve a crown on my head;<br/>Let the Looking-Glass creatures, whatever they be,<br/>Come and dine with the Red Queen, the White Queen, and me.’”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "And hundreds of voices joined in the chorus:",
         className: "chapter_text"
       },{
         text: "“Then fill up the glasses as quick as you can,<br/>And sprinkle the table with buttons and bran:<br/>Put cats in the coffee, and mice in the tea—<br/>And welcome Queen Alice with thirty-times-three!”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "Then followed a confused noise of cheering, and Alice thought to herself, “Thirty times three makes ninety. I wonder if any one’s counting?” In a minute there was silence again, and the same shrill voice sang another verse;",
         className: "chapter_text"
       },{
         text: "“‘O Looking-Glass creatures,’ quoth Alice, ‘draw near!<br/>’Tis an honour to see me, a favour to hear:<br/>’Tis a privilege high to have dinner and tea<br/>Along with the Red Queen, the White Queen, and me!’”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "Then came the chorus again:—",
         className: "chapter_text"
       },{
         text: "“Then fill up the glasses with treacle and ink,<br/>Or anything else that is pleasant to drink:<br/>Mix sand with the cider, and wool with the wine—<br/>And welcome Queen Alice with ninety-times-nine!”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“Ninety times nine!” Alice repeated in despair, “Oh, that’ll never be done! I’d better go in at once—” and there was a dead silence the moment she appeared.",
         className: "chapter_text"
@@ -2752,16 +2752,16 @@ const chapters = {
         className: "chapter_text"
       },{
         text: "“‘First, the fish must be caught.’<br/>That is easy: a baby, I think, could have caught it.<br/>‘Next, the fish must be bought.’<br/>That is easy: a penny, I think, would have bought it.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "‘Now cook me the fish!’<br/>That is easy, and will not take more than a minute.<br/>‘Let it lie in a dish!’<br/>That is easy, because it already is in it.",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: " ‘Bring it here! Let me sup!’<br/>It is easy to set such a dish on the table.<br/>‘Take the dish-cover up!’<br/>Ah, that is so hard that I fear I’m unable!",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: " For it holds it like glue—<br/>Holds the lid to the dish, while it lies in the middle:<br/>Which is easiest to do,<br/>Un-dish-cover the fish, or dishcover the riddle?”",
-        className: "chapter_poem"
+        className: "chapter_text_cit"
       },{
         text: "“Take a minute to think about it, and then guess,” said the Red Queen. “Meanwhile, we’ll drink your health—Queen Alice’s health!” she screamed at the top of her voice, and all the guests began drinking it directly, and very queerly they managed it: some of them put their glasses upon their heads like extinguishers, and drank all that trickled down their faces—others upset the decanters, and drank the wine as it ran off the edges of the table—and three of them (who looked like kangaroos) scrambled into the dish of roast mutton, and began eagerly lapping up the gravy, “just like pigs in a trough!” thought Alice.",
         className: "chapter_text"
