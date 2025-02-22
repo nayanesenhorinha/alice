@@ -17,21 +17,22 @@ const Credits = ({onNext, onPrev, goToSummary}) => {
 
   return (
     <div className="page credits">
-      <img 
-        className="icone_cabeco" 
+
+
+      
+      
+      <div className='credits_container'>
+        <p className='thead'>Pintando as rosas de vermelho</p>
+
+        <img 
         src="https://placehold.co/25" 
         alt="Imagem Placeholder" 
         loading="lazy" 
       />
-      
-      <div className='credits_container'>
-        <p className='thead'>Título dos créditos</p>
         <div className='tr'>
-          <p className='th ft'>Ilustração e webdesigner</p>
+          <p className='th ft'>Ilustração, capas e webdesigner</p>
           <p className='th'>Nayane de Souza</p>
         </div>
-
-        
         
         <div className='tr'>
           <p className='th ft'>Texto</p>
@@ -50,9 +51,10 @@ const Credits = ({onNext, onPrev, goToSummary}) => {
 
         <div className='tr'>
           <p className='th ft'>Agradecimentos</p>
-          <p className='th'>Nomes</p>
+          <p className='th'>Laura<br/>João Victor<br/>Paulo César Castro</p>
         </div>
 
+     
         <p className='tfooter'>Editora Sei lá ainda<br/>2025</p>
     </div>
 

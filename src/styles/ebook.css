@@ -388,7 +388,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.6rem;
 }
 
 .align-options-buttons {
@@ -524,14 +524,6 @@ body {
     flex-direction: column;
 }
 
-.credits {
-    .icone_cabeco {
-        margin-bottom: 2rem;
-    }
-    .chapter_text {
-        margin-bottom: 1.5rem;
-    }
-}
 
 .credits_container {
     display: flex;
@@ -539,21 +531,24 @@ body {
     width: 100%;
     padding: 0 1rem;
     align-items: center;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     gap: 0.4rem;
+}
+
+.credits_container img {
+    margin: 1.5rem 0;
 }
 
 .thead {
     color: var(--vermelho);
     font-weight: bold;
-    font-size: 1rem;
-    margin-bottom: 1.1rem;
+    font-size: 0.9rem;
 }
 
 .tfooter {
     font-weight: bold;
     color: var(--rosa);
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
     margin-top: 2rem;
 }
@@ -570,12 +565,13 @@ body {
     width: 50%;
     text-align: left;
     padding:  0 0.5rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
 }
 
 .tr .ft {
     font-weight: bold;
-    color: var(--vermelho);
+    color: var(--rosa);
     text-align: right;
 }
 
