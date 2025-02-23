@@ -187,7 +187,21 @@ useEffect(() => {
     window.removeEventListener('scroll', handleScroll);
     window.removeEventListener('touchstart', handleTouch);
   };
+  
 }, [handleScroll, handleTouch]);
+
+
+
+
+useEffect(() => {
+  if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js").then(() => {
+          console.log("Service Worker registrado com sucesso!");
+      });
+  }
+}, []);
+
+
 
 return (
 <div className="header">
@@ -209,6 +223,7 @@ return (
     />
   </button>
 
+
   <div className={`menu-config ${isFontSizeBoxVisible ? 'visible' : ''}`}>
 
     <div className='darkmode-option'>
@@ -221,7 +236,6 @@ return (
       </button>
       <div className='align-options-space'><span>.</span></div>
 
-      
     </div>
 
     <div className="align-options">
